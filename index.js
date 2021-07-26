@@ -1,0 +1,23 @@
+import { StrictMode } from "react";
+import ReactDOM from "react-dom";
+
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+    <StrictMode>
+        <App />
+    </StrictMode>,
+    rootElement
+);
+
+
+// import React from "react";
+// import  ReactDOM from "react-dom";
+
+// import App from "./App";
+
+// import "./index.css"
+
+
+// ReactDOM.render(<App/>,document.getElementById("value"))
